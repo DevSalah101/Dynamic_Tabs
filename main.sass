@@ -1,0 +1,93 @@
+@import "fonts"
+body
+  font-family: "raleway"
+  position : relative
+  padding: 0
+  margin: 0
+
+  .dyna-tabs
+    max-width: 600px
+    margin: 60px auto
+
+  ul
+    padding: 0
+    margin: 0
+    list-style: none
+
+    li
+      display: inline-block
+      background: #fff
+      border: 1px solid #eee
+      border-bottom: none
+      color: #666
+      padding: 10px 20px
+      cursor: pointer
+      &:not(:last-of-type)
+        margin-right: 2px
+  .tabs
+    > div
+      border: 1px solid #ddd
+      border-top: 1px solid #f3f3f3
+      color: #444
+      background: #f3f3f3
+      line-height: 2
+      &:not(:first-of-type)
+        display: none
+
+.active
+  background: #f3f3f3
+  border: 1px solid #ddd
+  border-bottom: none
+  transition : all .8s ease-in-out
+
+.media
+  overflow : hidden
+  padding: 10px 20px
+  &:not(:last-of-type)
+    border-bottom: 1px solid #ddd
+  .media-left
+    width: 80px
+    height: 80px
+    background: #AEAEAE
+    float: left
+    text-align: center
+    line-height: 80px
+    color: #ddd
+    overflow: hidden
+  .media-body
+    width : calc(100% - 100px)
+    margin-left : 20px
+    float: left
+    h4
+      margin: 0
+      color: #444
+      font-weight: normal
+      letter-spacing: 1.5px
+    p
+      margin: 0
+      font-size: 14px
+      line-height: 1.5
+      color: #666
+
+img
+  display: block
+  max-width: 100%
+
+section
+  width: 600px
+  margin: 20px auto
+  h3
+    margin: 0
+    background: #eee
+    padding: 7px
+    cursor: pointer
+    &:not(:last-of-type)
+      border-bottom: 1px solid #ddd
+
+  > div
+    background: #fbfbfb
+    border: 1px solid #eee
+    border-top: 0
+    padding: 7px
+    &:not(:first-of-type)
+      display: none

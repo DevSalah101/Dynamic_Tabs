@@ -1,0 +1,96 @@
+/* Damion Fonts */
+/* Relway Fonts */
+@font-face {
+  font-family: 'raleway';
+  src: url("raleway/Raleway-Regular.ttf");
+  font-weight: normal;
+  font-style: normal; }
+body {
+  font-family: "raleway";
+  position: relative;
+  padding: 0;
+  margin: 0; }
+  body .dyna-tabs {
+    max-width: 600px;
+    margin: 60px auto; }
+  body ul {
+    padding: 0;
+    margin: 0;
+    list-style: none; }
+    body ul li {
+      display: inline-block;
+      background: #fff;
+      border: 1px solid #eee;
+      border-bottom: none;
+      color: #666;
+      padding: 10px 20px;
+      cursor: pointer; }
+      body ul li:not(:last-of-type) {
+        margin-right: 2px; }
+  body .tabs > div {
+    border: 1px solid #ddd;
+    border-top: 1px solid #f3f3f3;
+    color: #444;
+    background: #f3f3f3;
+    line-height: 2; }
+    body .tabs > div:not(:first-of-type) {
+      display: none; }
+
+.active {
+  background: #f3f3f3;
+  border: 1px solid #ddd;
+  border-bottom: none;
+  transition: all 0.8s ease-in-out; }
+
+.media {
+  overflow: hidden;
+  padding: 10px 20px; }
+  .media:not(:last-of-type) {
+    border-bottom: 1px solid #ddd; }
+  .media .media-left {
+    width: 80px;
+    height: 80px;
+    background: #AEAEAE;
+    float: left;
+    text-align: center;
+    line-height: 80px;
+    color: #ddd;
+    overflow: hidden; }
+  .media .media-body {
+    width: calc(100% - 100px);
+    margin-left: 20px;
+    float: left; }
+    .media .media-body h4 {
+      margin: 0;
+      color: #444;
+      font-weight: normal;
+      letter-spacing: 1.5px; }
+    .media .media-body p {
+      margin: 0;
+      font-size: 14px;
+      line-height: 1.5;
+      color: #666; }
+
+img {
+  display: block;
+  max-width: 100%; }
+
+section {
+  width: 600px;
+  margin: 20px auto; }
+  section h3 {
+    margin: 0;
+    background: #eee;
+    padding: 7px;
+    cursor: pointer; }
+    section h3:not(:last-of-type) {
+      border-bottom: 1px solid #ddd; }
+  section > div {
+    background: #fbfbfb;
+    border: 1px solid #eee;
+    border-top: 0;
+    padding: 7px; }
+    section > div:not(:first-of-type) {
+      display: none; }
+
+/*# sourceMappingURL=main.css.map */
